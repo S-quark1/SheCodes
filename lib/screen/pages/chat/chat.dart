@@ -95,16 +95,16 @@ class _ChatState extends State<Chat> {
           children: [
             _itemChats(
               avatar: 'assets/images/2.jpg',
-              name: 'Меирхан',
+              name: 'Lovely chat',
               chat:
-                  'Добрый вечер! Я слышал новости то что когда я был не дома все',
+                  'Бибинур: Добрый вечер! Я слышалa новости то что когда я был не дома все',
               time: '08.10',
             ),
             _itemChats(
               avatar: 'assets/images/4.jpg',
-              name: 'Адиль',
-              chat: 'Какие планы на вечер?',
-              time: '03.19',
+              name: 'Бибинур',
+              chat: '😅 😂 🤣',
+              time: '18.12',
             ),
             _itemChats(
               avatar: 'assets/images/5.jpg',
@@ -126,10 +126,10 @@ class _ChatState extends State<Chat> {
               time: '00.09',
             ),
             _itemChats(
-              avatar: 'assets/images/8.jpg',
-              name: 'Дайыр',
+              avatar: 'assets/images/1.jpg',
+              name: 'Гулнур',
               chat:
-                  'До свидания! Только не забудь выучить блюпринты!',
+                  'Спасибо большое! Мне очень нужна была твоя поддержка!',
               time: '00.09',
             ),
           ],
@@ -245,7 +245,7 @@ class _ChatPageState extends State<ChatPage> {
                 ),
               ),
               const Text(
-                'Меирхан',
+                'Бибинур',
                 style: TextStyle(
                     fontSize: 28,
                     color: Colors.white),
@@ -302,10 +302,10 @@ class _ChatPageState extends State<ChatPage> {
           physics: const BouncingScrollPhysics(),
           children: [
             _itemChat(
-              avatar: 'assets/images/2.jpg',
+              avatar: 'assets/images/4.jpg',
               chat: 1,
               message:
-                  'Привет, можешь потом сказать Дайыру что бы он скинул мне ссылку на Гитхаб?',
+                  'Привет, можешь потом сказать Айгерим что бы она скинула мне ссылку на Гитхаб?',
               time: '17.20',
             ),
             _itemChat(
@@ -314,7 +314,7 @@ class _ChatPageState extends State<ChatPage> {
               time: '17.04',
             ),
             _itemChat(
-              avatar: 'assets/images/2.jpg',
+              avatar: 'assets/images/4.jpg',
               chat: 1,
               message: 'Надеюсь то что на защите все будет лучше, 😀',
               time: '18.10',
@@ -326,14 +326,14 @@ class _ChatPageState extends State<ChatPage> {
               time: '18.11',
             ),
             _itemChat(
-              avatar: 'assets/images/2.jpg',
+              avatar: 'assets/images/4.jpg',
               chat: 1,
               message:
                   'Да, я не сомневаюсь в тебе. Только установите обязательно докер что бы запускать все вместе.',
               time: '18.12',
             ),
             _itemChat(
-              avatar: 'assets/images/2.jpg',
+              avatar: 'assets/images/4.jpg',
               chat: 1,
               message: '😅 😂 🤣',
               time: '18.12',

@@ -115,7 +115,7 @@ class _ProfileState extends State<Profile> {
                                   height: 8.0,
                                 ),
                                 const Text(
-                                  "По номеру 112 круглосуточно принимают сообщения об угрозе.",
+                                  "Телефон доверия по номеру 111, круглосуточно.",
                                 ),
                                 const SizedBox(
                                   height: 8.0,
